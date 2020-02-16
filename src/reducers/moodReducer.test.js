@@ -1,5 +1,10 @@
 import { moodReducer } from './moodReducer';
-import { drinkCoffee, takeNap, study, eatSnack } from '../actions/moodActions';
+import {
+  drinkCoffee,
+  takeNap,
+  study,
+  eatSnack
+} from '../actions/moodActions';
 
 describe('moodReducer', () => {
 
